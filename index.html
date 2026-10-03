@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aurus — უმაღლესი დონის პრემიუმ ხელოვნური ინტელექტის პლატფორმა ბიზნესის ავტომატიზაციისა და ზრდისთვის.">
+    <title>Aurus — პრემიუმ ხელოვნური ინტელექტის პლატფორმა</title>
+    
+    <!-- Google Fonts: Inter & Noto Sans Georgian -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Georgian:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Golden Ambient Glows & Stardust -->
+    <div class="ambient-glow glow-1" aria-hidden="true"></div>
+    <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo" aria-label="Aurus მთავარი გვერდი">
+                <span class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                </span>
+                <span class="logo-text">Aurus</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="main-nav" id="main-nav" aria-label="ძირითადი ნავიგაცია">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">მთავარი</a></li>
+                    <li><a href="#about" class="nav-link">ჩვენ შესახებ</a></li>
+                    <li><a href="#features" class="nav-link">ფუნქციები</a></li>
+                    <li><a href="#luxury-tier" class="nav-link">დიზაინი & არქიტექტურა</a></li>
+                    <li><a href="#contact" class="nav-link">კონტაქტი</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="#contact" class="btn btn-secondary nav-btn">ავტორიზაცია</a>
+                    <a href="#contact" class="btn btn-primary nav-btn">დაიწყე უფასოდ</a>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="მენიუს გახსნა/დახურვა">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- 1. Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="badge-spark">✦</span>
+                        <span>ვარიანტი 1: პრემიუმი (#C4A77D) • Luxury AI Edition</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        შევქმნათ მომავლის <span class="gradient-text">ინტელექტუალური</span> შესაძლებლობები
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Aurus — უმაღლესი დონის ხელოვნური ინტელექტი, რომელიც აძლიერებს თქვენს ბიზნესს 
+                        უსაფრთხო, სწრაფი და ინტუიციური გადაწყვეტილებებით. განიცადეთ მომავალი დღესვე.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#contact" class="btn btn-primary btn-large">
+                            <span>დაიწყე უფასოდ</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#about" class="btn btn-outline btn-large">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                            </svg>
+                            <span>გაიგე მეტი</span>
+                        </a>
+                    </div>
+
+                    <!-- Hero Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">სისტემის სტაბილურობა</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">10x</span>
+                            <span class="stat-label">ეფექტურობის ზრდა</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">აქტიური მომხმარებელი</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Element (Luxury Mockup) -->
+                <div class="hero-visual">
+                    <div class="visual-wrapper">
+                        <!-- Glass Dashboard Card -->
+                        <div class="glass-dashboard-card">
+                            <div class="dashboard-header">
+                                <div class="window-dots">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                </div>
+                                <span class="dashboard-title">Aurus Engine Dashboard v3.0</span>
+                                <span class="status-indicator">
+                                    <span class="status-pulse"></span> აქტიური
+                                </span>
+                            </div>
+
+                            <div class="dashboard-body">
+                                <div class="metric-card-row">
+                                    <div class="metric-box">
+                                        <div class="metric-meta">
+                                            <span class="metric-title">გადაცემის სიჩქარე</span>
+                                            <span class="metric-badge">+42%</span>
+                                        </div>
+                                        <div class="metric-value">4.8 GB/წმ</div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 82%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="metric-box">
+                                        <div class="metric-meta">
+                                            <span class="metric-title">რეაგირების დრო</span>
+                                            <span class="metric-badge">-65ms</span>
+                                        </div>
+                                        <div class="metric-value">12 ms</div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 95%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="code-preview-box">
+                                    <div class="code-line"><span class="code-keyword">import</span> aurus = <span class="code-keyword">new</span> <span class="code-fn">AurusAI</span>({ tier: <span class="code-string">"luxury-enterprise"</span> });</div>
+                                    <div class="code-line"><span class="code-keyword">await</span> aurus.<span class="code-fn">optimizeWorkflow</span>({ autoScale: <span class="code-bool">true</span>, precision: <span class="code-string">"high"</span> });</div>
+                                    <div class="code-line code-comment">// შედეგი: 100% ავტომატიზაცია მიღწეულია ✓</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badges in Gold Accent -->
+                        <div class="floating-badge badge-top-right">
+                            <div class="badge-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <div class="badge-info">
+                                <strong>End-to-End დაშიფვრა</strong>
+                                <span>Enterprise Security • 256-Bit</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bottom-left">
+                            <div class="badge-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 20V10"></path>
+                                    <path d="M12 20V4"></path>
+                                    <path d="M6 20v-6"></path>
+                                </svg>
+                            </div>
+                            <div class="badge-info">
+                                <strong>AI Analytics & Engine</strong>
+                                <span>სრულყოფილი მონიტორინგი</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">ჩვენ შესახებ</span>
+                    <h2 class="section-title">ინოვაცია, რომელიც ცვლის თქვენს სამუშაო რეალობას</h2>
+                    <p class="section-description">
+                        Aurus შეიქმნა ელიტარული ბიზნესებისთვის, რათა რთული ციფრული ოპერაციები გარდაქმნას 
+                        მარტივ, უშეცდომო და შეუდარებელ გამოცდილებად.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-content-card">
+                        <div class="about-icon-box">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 14 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3>ჩვენი მისია</h3>
+                        <p>
+                            გავათავისუფლოთ თქვენი გუნდი რუტინული პროცესებისგან და მივცეთ მათ საშუალება 
+                            კონცენტრირდნენ სტრატეგიულ, შემოქმედებით და გლობალურ წარმატებაზე.
+                        </p>
+                    </div>
+
+                    <div class="about-content-card">
+                        <div class="about-icon-box">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3>მოწინავე არქიტექტურა</h3>
+                        <p>
+                            ჩვენი ნეირონული მოდელები მუდმივად სწავლობენ და იხვეწებიან რეალურ მონაცემებზე 
+                            დაყრდნობით, რაც უზრუნველყოფს უმაღლეს სიზუსტესა და სანდოობას.
+                        </p>
+                    </div>
+
+                    <div class="about-content-card">
+                        <div class="about-icon-box">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3>პრემიუმ მომსახურება</h3>
+                        <p>
+                            ინტუიციური ინტერფეისი, პერსონალური მენეჯერი და უწყვეტი 24/7 ტექნიკური მხარდაჭერა 
+                            პლატფორმის მარტივი და უსაფრთხო ინტეგრაციისთვის.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Features Section -->
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">მთავარი ფუნქციები</span>
+                    <h2 class="section-title">ყველაფერი, რაც გჭირდებათ წარმატებისთვის</h2>
+                    <p class="section-description">
+                        ჩვენი ინსტრუმენტების ნაკრები შექმნილია მაქსიმალური პროდუქტიულობისა და პრემიუმ კომფორტისთვის.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature Card 1 -->
+                    <article class="feature-card" id="feature-card-1">
+                        <div class="card-icon-container">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">ინტელექტუალური ავტომატიზაცია</h3>
+                        <p class="card-description">
+                            გაამარტივეთ და დააჩქარეთ კომპლექსური პროცესები Aurus AI ალგორითმების მეშვეობით, 
+                            რაც შეამცირებს ადამიანურ შეცდომებს 95%-ით.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-link-text">გაიგე მეტი</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                    </article>
+
+                    <!-- Feature Card 2 -->
+                    <article class="feature-card" id="feature-card-2">
+                        <div class="card-icon-container">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">რეალურ დროში ანალიტიკა</h3>
+                        <p class="card-description">
+                            მიიღეთ ზუსტი მონაცემები, პროგნოზები და სიღრმისეული რეპორტები წამებში. 
+                            მიიღეთ სწორი ბიზნეს გადაწყვეტილებები რეალურ ფაქტებზე დაყრდნობით.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-link-text">გაიგე მეტი</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                    </article>
+
+                    <!-- Feature Card 3 -->
+                    <article class="feature-card" id="feature-card-3">
+                        <div class="card-icon-container">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">ულტრა-უსაფრთხო ინფრასტრუქტურა</h3>
+                        <p class="card-description">
+                            თქვენი მონაცემები დაცულია უმაღლესი სტანდარტის 256-ბიტიანი დაშიფვრით, 
+                            საბანკო დონის უსაფრთხოებითა და SOC-2 / GDPR სრული შესაბამისობით.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-link-text">გაიგე მეტი</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Luxury Tier Showcase Section (ვარიანტი 1: პრემიუმი #C4A77D) -->
+        <section class="luxury-tier-section" id="luxury-tier">
+            <div class="container">
+                <div class="tier-card-highlight">
+                    <div class="tier-badge-gold">
+                        <span>✦ ვარიანტი 1: პრემიუმი (#C4A77D)</span>
+                    </div>
+                    <div class="tier-content-grid">
+                        <div class="tier-main-info">
+                            <h2 class="tier-heading">ექსკლუზიური დიზაინი და უმაღლესი სიზუსტე</h2>
+                            <p class="tier-subtext">
+                                Aurus-ის პრემიუმ არქიტექტურა აერთიანებს შავ ნახშირბადოვან ფონს და მქრქალი ოქროს 
+                                (#C4A77D) დეტალებს, რაც ქმნის ელიტარულ ვიზუალურ და ფუნქციურ ჰარმონიას.
+                            </p>
+                            <ul class="tier-perks-list">
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a77d" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>ინდივიდუალური AI მოდელის კონფიგურაცია</span>
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a77d" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>უმაღლესი SLA გარანტია: 99.99% უწყვეტი მუშაობა</span>
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a77d" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>პერსონალური 24/7 ტექნიკური ინჟინერი</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tier-action-box">
+                            <div class="tier-price-box">
+                                <span class="tier-label">პრემიუმ პაკეტი</span>
+                                <span class="tier-price">Aurus Elite</span>
+                                <span class="tier-duration">შეუზღუდავი შესაძლებლობები</span>
+                            </div>
+                            <a href="#contact" class="btn btn-primary btn-large btn-tier">დაჯავშნე დემო ვერსია</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">დაგვიკავშირდით</span>
+                    <h2 class="section-title">მზად ხართ ტრანსფორმაციისთვის?</h2>
+                    <p class="section-description">
+                        მოგვწერეთ ნებისმიერი შეკითხვა და Aurus-ის ექსპერტები დაგიკავშირდებიან უმოკლეს დროში.
+                    </p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- Contact Info Panel -->
+                    <div class="contact-info-panel">
+                        <h3 class="info-panel-title">საკონტაქტო ინფორმაცია</h3>
+                        <p class="info-panel-desc">
+                            გაიარეთ პერსონალური კონსულტაცია ჩვენს ექსპერტებთან.
+                        </p>
+
+                        <div class="info-items-list">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">ელექტრონული ფოსტა</span>
+                                    <a href="mailto:vip@aurus.ai" class="info-val">vip@aurus.ai</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">ტელეფონი</span>
+                                    <a href="tel:+995322000000" class="info-val">+995 (32) 200 00 00</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">მისამართი</span>
+                                    <span class="info-val">რუსთაველის გამზ. 42, თბილისი, საქართველო</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="social-links-wrapper">
+                            <span class="social-title">გამოგვყევით:</span>
+                            <div class="social-icons">
+                                <a href="#" class="social-btn" aria-label="LinkedIn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-btn" aria-label="GitHub">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-btn" aria-label="Twitter / X">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div id="form-alert" class="form-alert" role="alert" aria-live="polite" style="display: none;"></div>
+
+                            <div class="form-group" id="group-name">
+                                <label for="user-name" class="form-label">
+                                    სრული სახელი <span class="required-star">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input 
+                                        type="text" 
+                                        id="user-name" 
+                                        name="name" 
+                                        class="form-input" 
+                                        placeholder="მაგ: გიორგი ბერიძე" 
+                                        autocomplete="name"
+                                        required
+                                    >
+                                    <span class="input-icon">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <span class="error-msg" id="name-error">გთხოვთ შეიყვანოთ თქვენი სახელი (მინიმუმ 2 სიმბოლო)</span>
+                            </div>
+
+                            <div class="form-group" id="group-email">
+                                <label for="user-email" class="form-label">
+                                    ელექტრონული ფოსტა <span class="required-star">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input 
+                                        type="email" 
+                                        id="user-email" 
+                                        name="email" 
+                                        class="form-input" 
+                                        placeholder="name@company.ge" 
+                                        autocomplete="email"
+                                        required
+                                    >
+                                    <span class="input-icon">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                            <polyline points="22,6 12,13 2,6"></polyline>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <span class="error-msg" id="email-error">გთხოვთ შეიყვანოთ სწორი ელ.ფოსტის მისამართი</span>
+                            </div>
+
+                            <div class="form-group" id="group-message">
+                                <label for="user-message" class="form-label">
+                                    შეტყობინება <span class="required-star">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <textarea 
+                                        id="user-message" 
+                                        name="message" 
+                                        rows="4" 
+                                        class="form-textarea" 
+                                        placeholder="გაგვიზიარეთ თქვენი პროექტი ან მოთხოვნები..." 
+                                        required
+                                    ></textarea>
+                                </div>
+                                <span class="error-msg" id="message-error">შეტყობინება უნდა შედგებოდეს მინიმუმ 10 სიმბოლოსგან</span>
+                            </div>
+
+                            <button type="submit" id="submit-btn" class="btn btn-primary btn-submit">
+                                <span class="btn-text">შეტყობინების გაგზავნა</span>
+                                <span class="spinner" aria-hidden="true"></span>
+                                <svg class="submit-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Aurus</span>
+                <p class="footer-tagline">პრემიუმ ხელოვნური ინტელექტის გადაწყვეტილებები.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">მთავარი</a>
+                <a href="#about">ჩვენ შესახებ</a>
+                <a href="#features">ფუნქციები</a>
+                <a href="#luxury-tier">არქიტექტურა</a>
+                <a href="#contact">კონტაქტი</a>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="current-year">2026</span> Aurus Inc. ყველა უფლება დაცულია.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
